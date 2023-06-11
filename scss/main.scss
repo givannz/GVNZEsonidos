@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Lato&family=Rubik+Mono+One&display=swap');
+
+
+
+
+.cursive {
+    font-family: 'cursive', cursive;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+
+    background-color: #6b6b6b;
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: #1b1b1b;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    color: #004400;
+
+    text-align: center;
+
+}
+
+.titulo_index {
+    color: #000000
+}
+
+.slap {
+    width: 15rem;
+}
+
+
+.Slaphouse_index {
+    color: #8b0000
+}
+
+
+
+.bigroom_index {
+    color: #ff7b00
+}
+
+.Room {
+    width: 15rem;
+}
+
+
+.techno_index {
+    color: #2aac02
+}
+
+.tech {
+    width: 15rem;
+}
+
+.Deep {
+    width: 50%;
+}
+
+
+
+
+
+
+div nav article h5 {
+    color: #6b6b6b
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5%;
+    background-color: #ffffff;
+    width: 30rem
+}
+
+.card image {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/*== Footer ==*/
+
+.footer__container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.footer {
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #212121;
+    padding: 80px 0;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #00C3FF;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+@import url(./partials/_footer.scss);
+
+
+/* ============================== MEDIA QUERIES ============================== */
+
+
+/* ---------- MOBILE ----------  */
+@media screen and (max-width: 500px) {
+    body {
+        background-color: red;
+    }
+}
+
+
+/* ---------- TABLET ----------  */
+@media screen and (min-width: 501px) and (max-width: 1100px) {
+    body {
+        background-color: blue;
+    }
+
+    .grid__container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .grid__container img {
+        margin-top: 5rem;
+    }
+
+    .grid__container iframe {
+        display: none;
+    }
+}
+
+
+/* ---------- DESKTOP ----------  */
+@media screen and (min-width: 1101px) and (max-width: 1400px) {
+    body {
+        background-color: green;
+    }
+}
+
+
+/* ---------- XXL ----------  */
+@media screen and (min-width: 1401px) {
+    body {
+        background-color: rgb(133, 133, 133);
+        max-width: 1440px;
+        margin: auto;
+    }
+}
+
+@import "./partials/_medias";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer container {
+    color: #313131;
+
+    nav {
+        padding: 1rem;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+
+            li {
+                margin: 0.1rem;
+
+                a {
+                    text-decoration: none;
+                    color: #f0f8ff;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+H1 {
+    color: red($color: #250000)
+}
+
+
+
+footer {
+    background-color: rgb(168, 54, 54);
+    height: auto;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)), url()
+}
+
+
+@import "./partials/_footer";

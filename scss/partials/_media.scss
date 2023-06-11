@@ -1,0 +1,48 @@
+/* ============================== MEDIA QUERIES ============================== */
+
+
+/* ---------- MOBILE ----------  */
+@media screen and (max-width: 500px){
+    body{
+        background-color: red;
+    } 
+}
+
+
+/* ---------- TABLET ----------  */
+@media screen and (min-width: 501px) and (max-width: 1100px) {
+    body{
+        background-color: blue;
+    }
+
+    .grid__container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .grid__container img{
+        margin-top: 5rem;
+    }
+    .grid__container iframe{
+        display: none;
+    }
+}
+
+
+/* ---------- DESKTOP ----------  */
+@media screen and (min-width: 1101px) and (max-width: 1400px) {
+    body{
+        background-color: green;
+    }
+}
+
+
+/* ---------- XXL ----------  */
+@media screen and (min-width: 1401px) {
+    body{
+        background-color: rgb(109, 109, 109);
+        max-width: 1440px;
+        margin: auto;
+    }
+}
